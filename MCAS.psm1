@@ -302,7 +302,11 @@ $ExportedCommands = @(
     'Remove-MCASDiscoveryDataSource',
     'Remove-MCASSubnetCollection',
     'Send-MCASDiscoveryLog',
-    'Set-MCASAlert'
+    'Set-MCASAlert',
+	'Disable-MCASPolicy',
+	'Enable-MCASPolicy',
+	# for internal troubleshooting
+	'Invoke-MCASRestMethod'
     )
 
     $ExportedCommands | ForEach-Object {
